@@ -161,7 +161,7 @@ button {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
-    padding: 100px 600px;
+    padding: 100px 0px;
     gap: 24px;
 }
 
@@ -169,7 +169,8 @@ button {
     font-size: 36px;
     font-style: italic;
     font-weight: 400;
-    color:#1F2937
+    color:#1F2937;
+    padding: 0px 400px;
 }
 
 .credit {
