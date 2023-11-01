@@ -1,4 +1,106 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .logo {
+    display: flex;
+    padding: 8px;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 12px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button {
+    width: fit-content;
+}
+
+img {
+    height: 150px;
+    width: 300px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.info .text {
+    text-align: center;
+}
+
+.quote-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom .container {
+    display: flex;
+    flex-direction: row;
+}
+
+.bottom .container .right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer {
+    text-align: center;
 }
